@@ -20,7 +20,7 @@
     </PackageReference>
     <PackageReference Include="OpenCvSharp4" Version="4.5.2.20210404" />
     <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.5.2.20210404" />
-    <PackageReference Include="System.Text.Json" Version="6.0.0" Condition=" '$(TargetFramework)' != 'net6.0' " />
+    <PackageReference Include="System.Text.Json" Version="8.0.4" Condition=" '$(TargetFramework)' != 'net6.0' " />
     <PackageReference Include="Tesseract" Version="4.1.1" IncludeAssets="All" PrivateAssets="None" />
     <PackageReference Include="Tesseract.Drawing" Version="4.1.1" />
   </ItemGroup>
